@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#070b14" />
+  <title>Staff Command Dashboard — Sourav Dutta</title>
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true"></div>
+        <div>
+          <h1>Staff Command</h1>
+          <p>Live ops board · Sourav Dutta · IST</p>
+        </div>
+      </div>
+      <div class="live-pill" id="livePill" title="Auto-refresh">
+        <span class="dot"></span>
+        <span id="liveText">Connecting…</span>
+      </div>
+    </header>
+
+    <div class="filters">
+      <label>
+        <span class="sr-only">Lane</span>
+        <select id="laneFilter" aria-label="Filter by lane">
+          <option value="all">All lanes</option>
+        </select>
+      </label>
+      <label>
+        <span class="sr-only">Priority</span>
+        <select id="priorityFilter" aria-label="Filter by priority">
+          <option value="all">All priorities</option>
+          <option value="P1">P1</option>
+          <option value="P2">P2</option>
+          <option value="P3">P3</option>
+          <option value="P4">P4</option>
+        </select>
+      </label>
+      <button type="button" id="refreshBtn">Refresh now</button>
+    </div>
+
+    <section class="summary" id="summary" aria-label="Status counts"></section>
+    <section class="board" id="board" aria-label="Staff board by status"></section>
+
+    <footer class="footer">
+      <div>Source: <span id="sourceLabel">—</span> · Poll every <span id="pollLabel">4</span>s</div>
+      <div>
+        <a id="sheetLink" href="#" target="_blank" rel="noopener">Open StaffNow sheet</a>
+        ·
+        <a id="eventsLink" href="#" target="_blank" rel="noopener">Events ledger</a>
+      </div>
+    </footer>
+  </div>
+  <style>.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0}</style>
+  <script src="/js/app.js" type="module"></script>
+</body>
+</html>
