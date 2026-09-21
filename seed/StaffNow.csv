@@ -1,0 +1,14 @@
+Staff,Lane,Priority,Status,Now,Target,StartedAt,UpdatedAt,EffortMins,Outcome,Notes
+Career Scout,Career,P1,In Progress,Phase 1 #1 merged (HCP prioritization). Awaiting pick: one-pager vs GitHub-only vs artifact #2. Apps held.,Databricks first; Palantir/OpenAI Applied/Anthropic/Scale secondary,2026-09-22T00:05:00+05:30,2026-09-22T00:05:00+05:30,120,Value,Phase 1 #1 merged
+CFO Lite,Money,P1,Pending,Standing by — no money dump yet,Weekly cash/runway scoreboard,,,0,,
+Research Scout,Research,P2,In Progress,"Digging FDE role intelligence (definition, hiring bar, skills, who hires, comps, break-in paths)",Finalized FDE brief for Chief,2026-09-22T00:05:00+05:30,2026-09-22T00:05:00+05:30,90,Learning,FDE intel in progress
+Inbox Ops,Ops,P2,Pending,Not triaging yet,Daily decision-only inbox,,,0,,
+Learning Coach,Learning,P2,Pending,Waiting to map AI Commandos + DB cert,Weekly hands-on drills,,,0,,
+Pharma Niche Analyst,Career,P3,Pending,Employer·client·dates·title confirmation open — do not invent tenure,Proof points for FDE/architect narrative,,,0,,
+Brand Lead,Career,P3,Pending,Idle,LinkedIn positioning drafts for approval,,,0,,
+Opportunity Closer,Career,P3,Pending,Held — no outreach until applications gated,Application/interview pipeline,,,0,,
+Build Lab,Learning,P2,Done,Phase 1 V0.1 shipped & merged https://github.com/1celestial0/hcp-prioritization-intelligence,Artifact #2 when greenlit,2026-09-21T10:00:00+05:30,2026-09-22T00:05:00+05:30,240,Value,V0.1 shipped
+Knowledge Keeper,Ops,P2,In Progress,Keeping Notion vault / board notes,Every dump structured,2026-09-22T00:05:00+05:30,2026-09-22T00:05:00+05:30,60,Value,Vault sync
+Design Studio,Studio,P3,Target,Live; Canva needs sign-in,Infographics on brief,,,0,,
+Deck & Docs,Studio,P2,Target,Live; ready for Phase 1 one-pager,PPT/PDF/docs,,,0,,
+Motion Studio,Studio,P4,Target,Live; HeyGen connected,Short demo clips,,,0,,

@@ -1,0 +1,9 @@
+Timestamp,Staff,EventType,FromStatus,ToStatus,EffortMinsDelta,Outcome,Note
+2026-09-21T10:00:00+05:30,Build Lab,start,,In Progress,0,,Phase 1 build kicked off
+2026-09-22T00:05:00+05:30,Build Lab,done,In Progress,Done,240,Value,V0.1 shipped & merged
+2026-09-22T00:05:00+05:30,Career Scout,start,,In Progress,0,,Phase 1 #1 prioritization work
+2026-09-22T00:05:00+05:30,Career Scout,update,In Progress,In Progress,120,Value,HCP prioritization merged; awaiting pick
+2026-09-22T00:05:00+05:30,Research Scout,start,,In Progress,0,,FDE role intelligence dig
+2026-09-22T00:05:00+05:30,Research Scout,update,In Progress,In Progress,90,Learning,"Digging definition, hiring bar, comps"
+2026-09-22T00:05:00+05:30,Knowledge Keeper,start,,In Progress,0,,Vault / board notes
+2026-09-22T00:05:00+05:30,Knowledge Keeper,update,In Progress,In Progress,60,Value,Keeping Notion vault structured
