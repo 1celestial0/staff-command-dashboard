@@ -1,0 +1,12 @@
+{
+  "name": "staff-command-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Live interactive Staff Command Dashboard for Sourav Dutta",
+  "scripts": {
+    "update-status": "node scripts/update-status.mjs",
+    "sync-sheets": "node scripts/sync-from-sheets.mjs",
+    "dev": "npx serve -l 3456 ."
+  },
+  "engines": { "node": ">=18" }
+}
